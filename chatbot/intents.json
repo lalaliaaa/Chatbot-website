@@ -1,0 +1,379 @@
+[
+  {
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hai",
+          "Hey",
+          "Halo",
+          "hi",
+          "hello",
+          "hai",
+          "hey",
+          "halo"
+        ],
+        "responses": [
+          "Hello! Apa yang bisa saya bantu?",
+          "Hi! Apa yang ingin kamu tanyakan?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dadah",
+          "Dah",
+          "Sampai jumpa",
+          "Selamat tinggal",
+          "bye bye",
+          "Bye"
+        ],
+        "responses": [
+          "Sampai jumpa",
+          "Semoga harimu menyenangkan.",
+          "Bye! Senang bisa membantu.",
+          "Sampai jumpa lagi."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Makasih",
+          "Terima Kasih",
+          "Terima kasih atas informasinya",
+          "Terima Kasih Banyak!"
+        ],
+        "responses": [
+          "Senang bisa membantu!",
+          "Dengan senang hati.",
+          "Sama-sama!"
+        ]
+      },
+
+      {
+        "tag": "recomendation-jaksel",
+        "patterns": [
+          "Apa tempat wisata yang bagus di Jakarta Selatan?",
+          "Bisa kasih rekomendasi wisata di Jakarta Selatan?",
+          "Ada tempat wisata apa saja di Jakarta Selatan?",
+          "Cari tempat wisata di Jakarta Selatan.",
+          "Tempat menarik di Jakarta Selatan.",
+          "Ingin tahu tempat wisata di Jaksel."
+        ],
+        "responses": [
+          "Beberapa tempat wisata di Jakarta Selatan yang bisa Anda kunjungi adalah Kebun Binatang Ragunan, Kidzania, Museum Basoeki Abdullah, dan Museum Layang-Layang."
+        ]
+      },
+      {
+        "tag": "recomendation-jakbar",
+        "patterns": [
+          "Rekomendasi tempat wisata di Jakarta Barat?",
+          "Ada tempat wisata menarik di Jakarta Barat?",
+          "Tempat wisata yang populer di Jakarta Barat.",
+          "Apa saja tempat wisata di Jakarta Barat?",
+          "Wisata Jakarta Barat yang direkomendasikan.",
+          "Wisata apa yang bisa dikunjungi di Jakbar?"
+        ],
+        "responses": [
+          "Anda bisa mengunjungi Museum Fatahillah, Museum Bank Indonesia, Museum Macan (Modern and Contemporary Art in Nusantara), Museum Seni Rupa dan Keramik, Jakarta Aquarium dan Safari, serta Skyrink di Mall Taman Anggrek."
+        ]
+      },
+      {
+        "tag": "recomendation-jakpus",
+        "patterns": [
+          "Apa saja tempat wisata di Jakarta Pusat?",
+          "Cari rekomendasi tempat wisata di Jakarta Pusat.",
+          "Tempat wisata populer di Jakarta Pusat.",
+          "Bisa kasih rekomendasi wisata di Jakarta Pusat?",
+          "Tempat wisata terkenal di Jakarta Pusat.",
+          "Wisata apa saja yang ada di Jakpus?"
+        ],
+        "responses": [
+          "Tempat wisata di Jakarta Pusat yang bisa Anda kunjungi termasuk Monumen Nasional, Masjid Istiqlal, Gereja Katedral, Museum Nasional, Pasar Tanah Abang, Grand Indonesia Mall, Galeri Nasional Indonesia, Taman Ismail Marzuki, Galeri Indonesia Kaya, Taman Lapangan Banteng, Perpustakaan Nasional, dan Plaza Indonesia."
+        ]
+      },
+      {
+        "tag": "recomendation-jakut",
+        "patterns": [
+          "Ada tempat wisata apa di Jakarta Utara?",
+          "Rekomendasi wisata di Jakarta Utara?",
+          "Cari tempat wisata di Jakarta Utara.",
+          "Wisata menarik di Jakarta Utara.",
+          "Apa tempat wisata yang bagus di Jakarta Utara?",
+          "Tempat wisata di Jakut yang direkomendasikan."
+        ],
+        "responses": [
+          "Beberapa tempat wisata di Jakarta Utara yang bisa Anda kunjungi adalah Atlantis Water Adventure, Taman Impian Jaya Ancol, Ocean Ecopark, Sea World, dan Dunia Fantasi (DUFAN)."
+        ]
+      },
+      {
+        "tag": "recomendation-jaktim",
+        "patterns": [
+          "Rekomendasi tempat wisata di Jakarta Timur?",
+          "Tempat wisata menarik di Jakarta Timur.",
+          "Wisata apa saja yang ada di Jakarta Timur?",
+          "Ada tempat wisata apa di Jakarta Timur?",
+          "Bisa kasih rekomendasi wisata di Jakarta Timur?",
+          "Cari tempat wisata di Jaktim."
+        ],
+        "responses": [
+          "Tempat wisata di Jakarta Timur yang bisa Anda kunjungi termasuk Taman Mini Indonesia Indah (TMII), Wisata Agro Edukatif Istana Susu Cibugary, dan Taman Legenda Keong Mas."
+        ]
+      },
+      {
+        "tag": "best-facilities",
+        "patterns": [
+          "Tempat wisata dengan fasilitas terbaik",
+          "Dimana saya bisa menemukan fasilitas wisata terbaik?",
+          "Berikan tempat dengan fasilitas terbaik",
+          "Rekomendasikan tempat dengan fasilitas terbaik",
+          "Wisata yang memiliki fasilitas unggulan",
+          "Lokasi dengan fasilitas terbaik"
+        ],
+        "responses": [
+          "Berikut adalah beberapa tempat dengan fasilitas terbaik:\n\n- Taman Impian Jaya Ancol\n- Museum Nasional\n- Grand Indonesia Mall\n- Jakarta Aquarium dan Safari\n- Plaza Indonesia"
+        ]
+      },
+      {
+        "tag": "facilities-loc1",
+        "patterns": [
+          "Apa saja fasilitas terbaik di Jakarta Selatan?",
+          "Cari tempat dengan fasilitas lengkap di Jakarta Selatan",
+          "Rekomendasi wisata dengan fasilitas di Jaksel",
+          "Dimana saja fasilitas ramah lansia di Jakarta Selatan?",
+          "Lokasi wisata dengan fasilitas terbaik di Jakarta Selatan",
+          "Tempat di Jakarta Selatan dengan fasilitas lengkap"
+        ],
+        "responses": [
+          "Berikut adalah fasilitas terbaik di Jakarta Selatan:\n\n- Kidzania: Toilet Prioritas, Lift/Eskalator, Main Entrance, Handicap Parking, Kursi Roda, Tempat Duduk Bersandar, Information Service.\n- Museum Basoeki Abdullah: Toilet Prioritas, Lift/Eskalator, Main Entrance, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Kebun Binatang Ragunan: Toilet Prioritas, Main Entrance, Tempat Duduk Bersandar, Information Service.\n- Museum Layang-layang: Toilet Prioritas, Main Entrance, Tempat Duduk Bersandar, Jalur Ramp, Information Service."
+        ]
+      },
+      {
+        "tag": "facilities-loc2",
+        "patterns": [
+          "Fasilitas terbaik yang ada di Jakarta Barat?",
+          "Tempat wisata dengan fasilitas lengkap di Jakarta Barat",
+          "Apa saja tempat dengan fasilitas di Jakarta Barat?",
+          "Rekomendasikan wisata di Jakarta Barat dengan fasilitas terbaik",
+          "Dimana saja fasilitas ramah lansia di Jakarta Barat?",
+          "Lokasi dengan fasilitas lengkap di Jakarta Barat"
+        ],
+        "responses": [
+          "Berikut adalah fasilitas terbaik di Jakarta Barat:\n\n- Jakarta Aquarium dan Safari: Toilet Prioritas, Lift/Eskalator, Main Entrance, Handicap Parking, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Museum Macan: Toilet Prioritas, Main Entrance, Handicap Parking, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Museum Seni Rupa dan Keramik: Toilet Prioritas, Main Entrance, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Museum Bank Indonesia: Toilet Prioritas, Main Entrance, Tempat Duduk Bersandar, Jalur Ramp, Information Service."
+        ]
+      },
+      {
+        "tag": "facilities-loc3",
+        "patterns": [
+          "Dimana fasilitas terbaik di Jakarta Pusat?",
+          "Rekomendasi tempat wisata dengan fasilitas di Jakarta Pusat",
+          "Tempat dengan fasilitas lengkap di Jakarta Pusat",
+          "Cari wisata dengan fasilitas ramah lansia di Jakarta Pusat",
+          "Lokasi wisata dengan fasilitas unggulan di Jakarta Pusat",
+          "Tempat di Jakarta Pusat dengan fasilitas terbaik"
+        ],
+        "responses": [
+          "Berikut adalah fasilitas terbaik di Jakarta Pusat:\n\n- Plaza Indonesia: Toilet Prioritas, Lift/Eskalator, Main Entrance, Handicap Parking, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Grand Indonesia Mall: Toilet Prioritas, Lift/Eskalator, Main Entrance, Handicap Parking, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Museum Nasional: Toilet Prioritas, Lift/Eskalator, Main Entrance, Handicap Parking, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Taman Ismail Marzuki: Toilet Prioritas, Lift/Eskalator, Main Entrance, Handicap Parking, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Perpustakaan Nasional: Toilet Prioritas, Lift/Eskalator, Main Entrance, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service."
+        ]
+      },
+      {
+        "tag": "facilities-loc4",
+        "patterns": [
+          "Cari tempat wisata dengan fasilitas terbaik di Jakarta Utara",
+          "Rekomendasi wisata dengan fasilitas lengkap di Jakarta Utara",
+          "Dimana fasilitas wisata terbaik di Jakarta Utara?",
+          "Lokasi dengan fasilitas ramah lansia di Jakarta Utara",
+          "Tempat di Jakarta Utara dengan fasilitas unggulan",
+          "Fasilitas lengkap di tempat wisata Jakarta Utara"
+        ],
+        "responses": [
+          "Berikut adalah fasilitas terbaik di Jakarta Utara:\n\n- Taman Impian Jaya Ancol: Toilet Prioritas, Lift/Eskalator, Main Entrance, Handicap Parking, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Atlantis Water Adventure: Toilet Prioritas, Main Entrance, Handicap Parking, Tempat Duduk Bersandar, Jalur Ramp, Information Service.\n- Dunia Fantasi: Toilet Prioritas, Main Entrance, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service."
+        ]
+      },
+      {
+        "tag": "facilities-loc5",
+        "patterns": [
+          "Dimana fasilitas terbaik di Jakarta Timur?",
+          "Cari tempat wisata dengan fasilitas di Jakarta Timur",
+          "Rekomendasi fasilitas lengkap di Jakarta Timur",
+          "Lokasi wisata ramah lansia di Jakarta Timur",
+          "Tempat di Jakarta Timur dengan fasilitas unggulan",
+          "Wisata dengan fasilitas terbaik di Jakarta Timur"
+        ],
+        "responses": [
+          "Berikut adalah fasilitas terbaik di Jakarta Timur:\n\n- Taman Mini Indonesia Indah (TMII): Toilet Prioritas, Lift/Eskalator, Main Entrance, Kursi Roda, Tempat Duduk Bersandar, Jalur Ramp, Information Service."
+        ]
+      },
+      {
+        "tag": "harga-terbaik",
+        "patterns": [
+          "Dimana tempat wisata murah di Jakarta?",
+          "Cari wisata dengan harga terbaik di Jakarta",
+          "Rekomendasi wisata murah di Jakarta",
+          "Wisata harga terjangkau di Jakarta",
+          "Tempat wisata dengan harga murah di Jakarta",
+          "Wisata dengan biaya rendah di Jakarta"
+        ],
+        "responses": [
+          "Berikut adalah beberapa tempat wisata dengan harga terbaik di Jakarta:\n\n- Monumen Nasional\n- Taman Mini Indonesia Indah (TMII)\n- Taman Impian Jaya Ancol\n- Kebun Binatang Ragunan\n- Ocean Ecopark\n- Museum Fatahillah\n- Museum Bank Indonesia\n- Museum Nasional\n- Pasar Tanah Abang\n- Grand Indonesia Mall\n- Museum Seni Rupa dan Keramik\n- Taman Ismail Marzuki\n- Galeri Indonesia Kaya\n- Taman Lapangan Banteng\n- Museum Basoeki Abdullah\n- Museum Layang-layang\n- Perpustakaan Nasional\n- Plaza Indonesia"
+        ]
+      },
+      {
+        "tag": "harga-terbaik1",
+        "patterns": [
+          "Tempat wisata murah di Jakarta Selatan",
+          "Dimana wisata murah di Jakarta Selatan?",
+          "Rekomendasi wisata dengan harga terbaik di Jakarta Selatan",
+          "Cari tempat wisata murah di Jakarta Selatan",
+          "Tempat wisata dengan harga terjangkau di Jaksel",
+          "Wisata dengan biaya rendah di Jakarta Selatan"
+        ],
+        "responses": [
+          "Berikut adalah beberapa tempat wisata murah di Jakarta Selatan:\n\n- Kebun Binatang Ragunan\n- Museum Basoeki Abdullah\n- Museum Layang-layang"
+        ]
+      },
+      {
+        "tag": "harga-terbaik2",
+        "patterns": [
+          "Tempat wisata murah di Jakarta Barat",
+          "Dimana wisata murah di Jakarta Barat?",
+          "Rekomendasi wisata dengan harga terbaik di Jakarta Barat",
+          "Cari tempat wisata murah di Jakarta Barat",
+          "Tempat wisata dengan harga terjangkau di Jakbar",
+          "Wisata dengan biaya rendah di Jakarta Barat"
+        ],
+        "responses": [
+          "Berikut adalah beberapa tempat wisata murah di Jakarta Barat:\n\n- Museum Fatahillah\n- Museum Bank Indonesia\n- Museum Seni Rupa dan Keramik"
+        ]
+      },
+      {
+        "tag": "harga-terbaik3",
+        "patterns": [
+          "Tempat wisata murah di Jakarta Timur",
+          "Dimana wisata murah di Jakarta Timur?",
+          "Rekomendasi wisata dengan harga terbaik di Jakarta Timur",
+          "Cari tempat wisata murah di Jakarta Timur",
+          "Tempat wisata dengan harga terjangkau di Jaktim",
+          "Wisata dengan biaya rendah di Jakarta Timur"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata murah di Jakarta Timur:\n\n- Taman Mini Indonesia Indah (TMII)"
+        ]
+      },
+      {
+        "tag": "harga-terbaik4",
+        "patterns": [
+          "Tempat wisata murah di Jakarta Pusat",
+          "Dimana wisata murah di Jakarta Pusat?",
+          "Rekomendasi wisata dengan harga terbaik di Jakarta Pusat",
+          "Cari tempat wisata murah di Jakarta Pusat",
+          "Tempat wisata dengan harga terjangkau di Jakpus",
+          "Wisata dengan biaya rendah di Jakarta Pusat"
+        ],
+        "responses": [
+          "Berikut adalah beberapa tempat wisata murah di Jakarta Pusat:\n\n- Monumen Nasional\n- Museum Nasional\n- Pasar Tanah Abang\n- Grand Indonesia Mall\n- Museum Seni Rupa dan Keramik\n- Taman Ismail Marzuki\n- Galeri Indonesia Kaya\n- Taman Lapangan Banteng\n- Perpustakaan Nasional\n- Plaza Indonesia"
+        ]
+      },
+      {
+        "tag": "harga-terbaik5",
+        "patterns": [
+          "Tempat wisata murah di Jakarta Utara",
+          "Dimana wisata murah di Jakarta Utara?",
+          "Rekomendasi wisata dengan harga terbaik di Jakarta Utara",
+          "Cari tempat wisata murah di Jakarta Utara",
+          "Tempat wisata dengan harga terjangkau di Jakut",
+          "Wisata dengan biaya rendah di Jakarta Utara"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata murah di Jakarta Utara:\n\n- Ocean Ecopark"
+        ]
+      },
+      {
+        "tag": "rating-tertinggi",
+        "patterns": [
+          "Tempat wisata dengan rating tertinggi di Jakarta",
+          "Cari wisata dengan rating terbaik di Jakarta",
+          "Rekomendasi wisata di Jakarta dengan rating tinggi",
+          "Wisata mana yang memiliki rating terbaik di Jakarta?",
+          "Tempat wisata paling tinggi ratingnya di Jakarta",
+          "Rating tertinggi untuk tempat wisata di Jakarta"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata dengan rating tertinggi di Jakarta:\n\n- Monumen Nasional\n- Taman Mini Indonesia Indah (TMII)\n- Atlantis Water Adventure\n- Taman Impian Jaya Ancol\n- Kebun Binatang Ragunan\n- Ocean Ecopark\n- Museum Fatahillah\n- Museum Bank Indonesia\n- Museum Nasional\n- Grand Indonesia Mall\n- Museum Macan (Modern and Contemporary Art in Nusantara)\n- Galeri Nasional Indonesia\n- Museum Seni Rupa dan Keramik\n- Taman Ismail Marzuki\n- Galeri Indonesia Kaya\n- Taman Lapangan Banteng\n- Museum Basoeki Abdullah\n- Museum Layang-layang\n- Perpustakaan Nasional\n- Taman Legenda Keong Emas\n- Plaza Indonesia\n- Dunia Fantasi\n- Pelabuhan Marina\n- Pulau Tidung\n- Pulau Bidadari\n- Pulau Pelangi\n- KidZania\n- Sea World\n- Skyrink - Mall Taman Anggrek\n- Jakarta Aquarium dan Safari"
+        ]
+      },
+      {
+        "tag": "rating-tertinggi1",
+        "patterns": [
+          "Dimana tempat wisata dengan rating tertinggi di Jakarta Barat?",
+          "Wisata apa yang memiliki rating terbaik di Jakarta Barat?",
+          "Rekomendasi tempat wisata dengan rating tinggi di Jakarta Barat",
+          "Cari wisata dengan rating terbaik di Jakarta Barat",
+          "Tempat wisata dengan rating tertinggi di Jakbar",
+          "Rating wisata tertinggi di Jakarta Barat"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata dengan rating tertinggi di Jakarta Barat:\n\n- Museum Fatahillah\n- Museum Bank Indonesia\n- Museum Macan (Modern and Contemporary Art in Nusantara)\n- Museum Seni Rupa dan Keramik\n- Skyrink - Mall Taman Anggrek\n- Jakarta Aquarium dan Safari"
+        ]
+      },
+      {
+        "tag": "rating-tertinggi2",
+        "patterns": [
+          "Dimana tempat wisata dengan rating tertinggi di Jakarta Pusat?",
+          "Wisata apa yang memiliki rating terbaik di Jakarta Pusat?",
+          "Rekomendasi tempat wisata dengan rating tinggi di Jakarta Pusat",
+          "Cari wisata dengan rating terbaik di Jakarta Pusat",
+          "Tempat wisata dengan rating tertinggi di Jakpus",
+          "Rating wisata tertinggi di Jakarta Pusat"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata dengan rating tertinggi di Jakarta Pusat:\n\n- Monumen Nasional\n- Museum Nasional\n- Grand Indonesia Mall\n- Galeri Nasional Indonesia\n- Taman Ismail Marzuki\n- Galeri Indonesia Kaya\n- Taman Lapangan Banteng\n- Perpustakaan Nasional\n- Plaza Indonesia"
+        ]
+      },
+      {
+        "tag": "rating-tertinggi3",
+        "patterns": [
+          "Dimana tempat wisata dengan rating tertinggi di Jakarta Timur?",
+          "Wisata apa yang memiliki rating terbaik di Jakarta Timur?",
+          "Rekomendasi tempat wisata dengan rating tinggi di Jakarta Timur",
+          "Cari wisata dengan rating terbaik di Jakarta Timur",
+          "Tempat wisata dengan rating tertinggi di Jaktim",
+          "Rating wisata tertinggi di Jakarta Timur"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata dengan rating tertinggi di Jakarta Timur:\n\n- Taman Mini Indonesia Indah (TMII)\n- Taman Legenda Keong Emas"
+        ]
+      },
+      {
+        "tag": "rating-tertinggi4",
+        "patterns": [
+          "Dimana tempat wisata dengan rating tertinggi di Jakarta Utara?",
+          "Wisata apa yang memiliki rating terbaik di Jakarta Utara?",
+          "Rekomendasi tempat wisata dengan rating tinggi di Jakarta Utara",
+          "Cari wisata dengan rating terbaik di Jakarta Utara",
+          "Tempat wisata dengan rating tertinggi di Jakut",
+          "Rating wisata tertinggi di Jakarta Utara"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata dengan rating tertinggi di Jakarta Utara:\n\n- Atlantis Water Adventure\n- Taman Impian Jaya Ancol\n- Ocean Ecopark\n- Dunia Fantasi\n- Pelabuhan Marina\n- Pulau Tidung\n- Pulau Bidadari\n- Pulau Pelangi"
+        ]
+      },
+      {
+        "tag": "rating-tertinggi5",
+        "patterns": [
+          "Dimana tempat wisata dengan rating tertinggi di Jakarta Selatan?",
+          "Wisata apa yang memiliki rating terbaik di Jakarta Selatan?",
+          "Rekomendasi tempat wisata dengan rating tinggi di Jakarta Selatan",
+          "Cari wisata dengan rating terbaik di Jakarta Selatan",
+          "Tempat wisata dengan rating tertinggi di Jaksel",
+          "Rating wisata tertinggi di Jakarta Selatan"
+        ],
+        "responses": [
+          "Berikut adalah tempat wisata dengan rating tertinggi di Jakarta Selatan:\n\n- Kebun Binatang Ragunan\n- Museum Basoeki Abdullah\n- Museum Layang-layang\n- KidZania"
+        ]
+      }
+    ]
+  }
+]
